@@ -1,0 +1,35 @@
+.page__wrapper{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid teal;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+  }
+ 
+  .page{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border:1px solid teal;
+    border-radius: 360px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  .page_active{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 360px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    transform: scale(1.2);
+    border:1px solid red;
+  }
+  .page:hover{
+    transform: scale(1.2);
+  }
